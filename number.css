@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color:red;
+    
+}
+#container{
+    margin-top: 25px;
+}
+span{
+    display:inline-block;
+    padding: 10px;
+    background-color: goldenrod;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+
+}
+span:hover{
+    background-color: red;
+}
